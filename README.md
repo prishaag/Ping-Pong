@@ -1,36 +1,42 @@
-# Super Cool Ping Pong Game
+# Pygame Ping Pong Game
 
-A simple yet super cool implementation of the classic Ping Pong game using Python and the Pygame library.
+## Overview
 
-## Features
+This is a simple implementation of a ping pong game using the Pygame library in Python.
 
-- **Dynamic Background:** The game features a dynamic background for an immersive experience.
+## How to Run
 
-- **Particle Effects:** Witness amazing particle effects upon ball and paddle collisions for added visual appeal.
+1. Make sure you have Python installed on your system.
+2. Install the Pygame library by running the following command:
 
-- **Cool Mode:** Enable the "cool mode" for a vibrant and ever-changing ball color during gameplay.
+   ```bash
+   pip install pygame
+3. Run the script
+   ```bash
+   python pingpong.py
 
-- **Increased Speed:** The ball moves at a faster pace, making the game more challenging and exciting.
+## Game Controls
+Left Paddle:
+Move Up: W key
+Move Down: S key
+Right Paddle:
+Move Up: Up arrow key
+Move Down: Down arrow key
 
-- **Scoring Mechanism:** The game is won by the player reaching the set winning score first. Get ready for intense matches!
-
-## How to Play
-
-- Use the **W** and **S** keys to control the left paddle.
-- Use the **Up** and **Down** arrow keys to control the right paddle.
-
-## Installation
-
-1. Make sure you have Python installed on your machine.
-2. Install the Pygame library using the following command:
-    ```bash
-    pip install pygame
-    ```
-3. Download the game file and run it using Python:
-    ```bash
-    python super_cool_ping_pong.py
-    ```
+## Game Rules
+The game is a classic ping pong match between two players.
+Each player controls a paddle on their side of the screen.
+The objective is to hit the ball with the paddle and score points.
+The game continues until one of the players reaches the winning score.
+The winning score is set to 10 by default but can be changed by modifying the winningscore variable in the code.
+Game Features
+The game features a simple user interface with paddles, a ball, and a score display.
+Paddles can be moved up and down using specified keys.
+The ball bounces off the paddles and walls, and scores are updated accordingly.
+The game announces the winner when either player reaches the winning score.
+After a victory, the game resets, allowing for a new match to begin.
 
 ## Acknowledgements
+This rendition of ping pong would not have been possible without the Pygame module, as well as this super awesome tutorial I drew my inspiration from https://www.youtube.com/watch?v=vVGTZlnnX3U .
+   
 
-- This game was created using the Pygame library (https://www.pygame.org/), as well as inspired by an an awesome youtube tutorial(https://www.youtube.com/watch?v=vVGTZlnnX3U).
