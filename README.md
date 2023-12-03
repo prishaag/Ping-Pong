@@ -37,6 +37,6 @@ The game announces the winner when either player reaches the winning score.
 After a victory, the game resets, allowing for a new match to begin.
 
 ## Acknowledgements
-This rendition of ping pong would not have been possible without the Pygame module, as well as this super awesome tutorial I drew my inspiration from https://www.youtube.com/watch?v=vVGTZlnnX3U .
+This rendition of ping pong would not have been possible without the Pygame module, as well as this super awesome tutorial I was able to follow and draw my inspiration from https://www.youtube.com/watch?v=vVGTZlnnX3U .
    
 
